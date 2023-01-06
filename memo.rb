@@ -28,6 +28,7 @@ elsif input_number == 2
   
   CSV.open("#{file_name}.csv","a") do |csv|
   csv << ["#{memo}"]
+  puts memo
  end
 
 else
